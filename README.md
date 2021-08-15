@@ -1,3 +1,15 @@
+## Changes
+* Took color idea from some of the button transitions here: https://en.dragon-ball-official.com/news/01_332.html
+* Color palette: https://colorhunt.co/palette/0023660f52bafa8072ffdab9
+* Updated favicon
+* Can see which "page" you're actively on because button stays "hover" color
+* Updated search bar - rounded and results change color when hovering over it
+* CSS is still tough so didn't touch other pages 😅
+
+
+
+
+
 # Getting Started
 
 Super simple Angular app with 1 module and 2 routes. This is a minor variation on the Tour of Heroes I wrote for the [official docs](https://angular.io/tutorial).
