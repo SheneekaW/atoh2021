@@ -1,3 +1,4 @@
+import { ViewEncapsulation } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable, Subject, of } from 'rxjs';
@@ -13,8 +14,9 @@ import { HeroSearchService } from './hero-search.service';
 @Component({
   selector: 'my-hero-search',
   templateUrl: './hero-search.component.html',
-  styleUrls: ['./hero-search.component.css'],
-  providers: [HeroSearchService]
+  styleUrls: ['./hero-search.component.scss'],
+  providers: [HeroSearchService],
+  encapsulation: ViewEncapsulation.None
 })
 export class HeroSearchComponent implements OnInit {
   heroes: Observable<Hero[]>;

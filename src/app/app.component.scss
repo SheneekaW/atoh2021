@@ -1,0 +1,46 @@
+h1 {
+    font-size: 1.2em;
+    color: #FA8072;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+nav a:visited,
+a:link {
+    color: #FFDAB9;
+}
+
+nav a:hover {
+    color: #000000;
+    background-color: #FFDAB9;
+}
+
+nav a.router-link-active {
+    color: #FFDAB9;
+}
+
+nav a.currentPage {
+    color: #000000;
+    background-color: #FFDAB9;
+}
+
+.header-bar {
+    background-color: #B61919;
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

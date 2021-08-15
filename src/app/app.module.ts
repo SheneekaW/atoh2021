@@ -14,6 +14,10 @@ import { DashboardComponent } from './dashboard.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroSearchComponent } from './hero-search.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FantasticCardComponent } from './fantastic-card/fantastic-card.component';
+
+
 
 @NgModule({
   imports: [
@@ -25,7 +29,8 @@ import { HeroSearchComponent } from './hero-search.component';
       dataEncapsulation: false,
       delay: 300,
       passThruUnknownUrl: true
-    })
+    }),
+    BrowserAnimationsModule
   ],
   declarations: [
     AppComponent,
@@ -33,6 +38,7 @@ import { HeroSearchComponent } from './hero-search.component';
     HeroSearchComponent,
     HeroesComponent,
     HeroDetailComponent,
+    FantasticCardComponent,
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]

@@ -1,0 +1,50 @@
+@import 'app/variables.scss';
+h3 {
+    text-align: center;
+    color: $card-text-color;
+}
+
+h2 {
+    color: #444;
+    font-weight: lighter;
+}
+
+body {
+    margin: 2em;
+}
+
+body,
+input[text],
+button {
+    color: #888;
+    font-family: Cambria, Georgia;
+}
+
+button {
+    padding: 0.2em;
+    font-size: 14px;
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: $gerbil * 2;
+    justify-content: center;
+}
+
+.card {
+    background-color: $card-base-color;
+    color: $card-text-color;
+    min-width: 100px;
+    min-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: $moose / 2;
+    transition: all .4s ease;
+    &:hover {
+        background-color: lighten($card-base-color, 10);
+        color: darken($card-text-color, 30)
+    }
+    h1 {
+        font-size: 12px;
+    }
+}

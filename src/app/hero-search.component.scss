@@ -1,0 +1,30 @@
+.search-result-all {
+    position: absolute;
+    z-index: 1;
+}
+
+.search-result {
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-result:hover {
+    background-color: #FFDAB9;
+}
+
+#search-box {
+    justify-content: center;
+    border-radius: 40px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid lightgray;
+    margin: 20px 5px 5px 0px;
+    padding: 12px 20px;
+}
+
+h4 {
+    color: #FA8072;
+}

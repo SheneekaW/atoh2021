@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Hero } from './hero';
@@ -7,7 +7,8 @@ import { HeroService } from './hero.service';
 @Component({
   selector: 'my-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  styleUrls: ['./dashboard.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
